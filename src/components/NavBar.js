@@ -20,14 +20,14 @@ export default function NavBar () {
                         className="inline-flex items-center py-3 px-3 my-6 rounded text-green-200 hover:text-green-800"
                         activeClassName="text-green-100 bg-green-900 bold italic underline"
                     >
-                        Blog Post
+                        Blog
                     </NavLink>
                     <NavLink
-                        to="/project"
+                        to="/litterature"
                         className="inline-flex items-center py-3 px-3 my-6 rounded text-green-200 hover:text-green-800"
                         activeClassName="text-green-100 bg-green-900 bold italic underline"                    
                     >
-                        Projects
+                        Litterature
                     </NavLink>
                     <NavLink
                         to="/about"
