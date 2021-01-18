@@ -14,7 +14,7 @@ export default function SinglePost () {
     const {slug} = useParams();
 
     useEffect(() => {
-        sanityClient.fetch(`*[slug.current == "${slug}"]{
+        sanityClient.fetch(`*[slug.current == "${slug}"] {
             title,
             _id,
             slug,
