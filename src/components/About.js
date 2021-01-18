@@ -17,7 +17,7 @@ export default function About () {
         sanityClient.fetch(`*[_type == "author"] {
             name,
             bio,
-            "authorImage": image.asset->url
+            "authorImage": image
         }`
         )
         .then((data) => setAuthor(data[0]))
